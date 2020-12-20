@@ -20,7 +20,7 @@ group 'com.sinabrow.book'
 version '1.0-SNAPSHOT'
 sourceCompatibility = 1.8
 
-bootJar {
+springBoot {
     mainClassName='com.sinabrow.book.springboot.Application'
 }
 
