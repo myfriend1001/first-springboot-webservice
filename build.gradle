@@ -20,9 +20,9 @@ group 'com.sinabrow.book'
 version '1.0-SNAPSHOT'
 sourceCompatibility = 1.8
 
-bootJar {
-    mainClassName='springboot.Application'
-}
+bootJar.enabled = false
+jar.enabled = true
+
 
 repositories {
     mavenCentral()
